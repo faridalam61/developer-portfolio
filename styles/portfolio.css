@@ -9,11 +9,11 @@
 }
 
 .btn-primary{
-    background: #FD6E0A; color:#fff; border:0; font-size: 20px; font-weight: 700; padding:18px 36px; border-radius: 5px; cursor: pointer; margin-right: 30px; 
+    background: #FD6E0A; color:#fff; border:0; font-size: 20px; font-weight: 700; padding:16px 30px; border-radius: 5px; cursor: pointer; margin-right: 30px; 
 }
 
 .btn-secondary{
-    background: #fff; color:#FD6E0A; border:1px solid #FD6E0A; font-size: 20px; font-weight: 700; padding:18px 36px; border-radius: 5px; cursor: pointer; width: 200px;
+    background: #fff; color:#FD6E0A; border:1px solid #FD6E0A; font-size: 20px; font-weight: 700; padding:16px 30px; border-radius: 5px; cursor: pointer; width: 200px;
 }
 .header{background: #FFF8F3; background-image: url('../images/header_bg.png'), url('../images/developer.png'); background-repeat: no-repeat; background-position: bottom right, left;}
 /* navbar styles */
