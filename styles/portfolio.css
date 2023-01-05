@@ -13,7 +13,7 @@
 }
 
 .btn-secondary{
-    background: #FD6E0A; color:#fff; border:0; font-size: 20px; font-weight: 700; padding:18px 36px; border-radius: 5px; cursor: pointer; width: 200px;
+    background: #fff; color:#FD6E0A; border:1px solid #FD6E0A; font-size: 20px; font-weight: 700; padding:18px 36px; border-radius: 5px; cursor: pointer; width: 200px;
 }
 .header{background: #FFF8F3; background-image: url('../images/header_bg.png'), url('../images/developer.png'); background-repeat: no-repeat; background-position: bottom right, left;}
 /* navbar styles */
@@ -90,6 +90,35 @@ section{margin-top: 130px;}
 
 /* Resume section styles  */
 .resume-content{
-    display: flex; gap:50px
+    display: flex; gap:50px; padding: 30px;
 }
-.download-resume{text-align: center;}
+.download-resume{text-align: center; margin-top: 30px;}
+
+.resume-item-title{
+    color:#474747; font-size: 25px; margin-top: 80px;
+}
+.resume-item{
+    margin: 30px 0;
+}
+.resume-titel{font-size: 20px; color:#474747}
+.resume-sub-title{font-size: 16px; color: #868686;}
+
+.resume-text{font-size: 16px; color: #868686; margin-top: 20px;}
+hr{color:#adadada9}
+
+
+.contact{background-color: #FFF8F3; display: flex; padding: 30px 30px 80px; gap:50px;}
+
+.contact-title{
+    font-size: 35px; font-weight: 700;
+}
+
+.cotact-text{margin:25px 0}
+
+.contact a{text-decoration: none;}
+
+input[type=text], input[type=email]{
+    width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #FFF8F3;
+}
+
+textarea{width: 100%; padding:10px; margin-bottom: 20px; border: 1px solid #fff8f3;}
